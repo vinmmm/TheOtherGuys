@@ -5,7 +5,7 @@ var express           = require('express'),
     characterController = require('./server/controllers/character-controller');
     charactersController = require('./server/controllers/characters-controller');
 
-mongoose.connect('mongodb://localhost:27017/the-other-guys');
+
 
 app.use(bodyParser());
 
